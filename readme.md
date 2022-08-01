@@ -56,11 +56,11 @@
 
 :diamonds: Step 4.1 :
      
-      Value 1: PORT, 
+      PORT : Your Desired Port ( CORS will be configured for 3001. )
      
-      Value 2: DB_URI (MongoDB),
+      DB_URI: MongoDB connection link,
      
-      Value 3: SECRET_KEY,
+      SECRET_KEY: For Json Web Token,
 
 :diamonds: Step 5 : `npm run dev` to initialize Server.
 
