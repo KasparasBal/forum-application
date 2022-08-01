@@ -3,7 +3,8 @@ const mongoose = require("mongoose");
 const UserSchema = new mongoose.Schema({
   username: {
     type: String,
-    required: true,
+    required: [true, "Username needed"],
+    unique: [true, "This username is taken"],
   },
   password: {
     type: String,
@@ -15,7 +16,7 @@ const UserSchema = new mongoose.Schema({
     unique: true,
   },
   age: {
-    type: number,
+    type: Number,
     required: true,
   },
   sex: {

@@ -2,6 +2,12 @@
 const express = require("express");
 const app = express();
 
+// Db
+const dbConnection = require("./database/dbConnection");
+
+//connection to Database
+dbConnection();
+
 //Parsing Middleware
 const bodyParser = require("body-parser");
 
@@ -36,10 +42,6 @@ const userRoutes = require("./routers/userRoutes.js");
 
 //Initializing Routes
 app.use("/", userRoutes);
-
-//connection to Database
-const dbConnection = require("./database/dbConnection");
-dbConnection();
 
 //Port
 

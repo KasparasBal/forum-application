@@ -8,7 +8,7 @@ const jwt = require("jsonwebtoken");
 
 //Register EndPoint
 
-const Register = (req, res) => {
+const register = (req, res) => {
   //Hash the Password
 
   const salt = 10; // Number of Salt Rounds
@@ -17,6 +17,8 @@ const Register = (req, res) => {
     .hash(req.body.password, salt)
     .then((hashedPass) => {
       const user = new User({
+        username: req.body.username,
+        age: req.body.age,
         email: req.body.email,
         password: hashedPass,
       });
@@ -42,4 +44,8 @@ const Register = (req, res) => {
         e,
       });
     });
+};
+
+module.exports = {
+  register,
 };
