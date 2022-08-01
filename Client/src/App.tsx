@@ -1,5 +1,14 @@
+//Components
+import Navbar from "./components/Navbar";
+
+//Pages
+
 function App() {
-  return <></>;
+  return (
+    <>
+      <Navbar />
+    </>
+  );
 }
 
 export default App;
