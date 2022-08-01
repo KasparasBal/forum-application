@@ -1,6 +1,5 @@
 const mongoose = require("mongoose");
-const auth = require("../middleware/auth");
-const postModel = require("../models/postModel");
+const Post = require("../models/postModel");
 
 //GetAllPosts;
 //////////////////////////////////////////////////////
@@ -78,4 +77,12 @@ const DeletePost = async (req, res) => {
   } catch (err) {
     res.status(500).json({ err });
   }
+};
+
+module.exports = {
+  getAllPosts,
+  getSinglePost,
+  CreatePost,
+  DeletePost,
+  UpdatePost,
 };

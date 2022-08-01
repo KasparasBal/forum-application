@@ -39,9 +39,11 @@ app.use((req, res, next) => {
 //Routes
 
 const userRoutes = require("./routers/userRoutes.js");
+const postRoutes = require("./routers/postRoutes.js");
 
 //Initializing Routes
 app.use("/", userRoutes);
+app.use("/", postRoutes);
 
 //Port
 

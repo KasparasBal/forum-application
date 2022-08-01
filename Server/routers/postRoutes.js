@@ -1,5 +1,5 @@
 const express = require("express");
-const auth = require("../auth");
+const auth = require("../middleware/auth");
 
 const {
   getAllPosts,
@@ -7,7 +7,7 @@ const {
   CreatePost,
   DeletePost,
   UpdatePost,
-} = require("../Controllers/postController");
+} = require("../controllers/postController");
 
 const router = express.Router();
 
