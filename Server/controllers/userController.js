@@ -6,6 +6,7 @@ const bcrypt = require("bcrypt");
 //Authentication
 const jwt = require("jsonwebtoken");
 
+///////////////////////////////////////////////////////////////////
 //Register
 
 const register = (req, res) => {
@@ -46,6 +47,7 @@ const register = (req, res) => {
     });
 };
 
+///////////////////////////////////////////////////////////////////
 //Login
 
 const login = (request, response) => {
