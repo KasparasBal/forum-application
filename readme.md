@@ -8,7 +8,10 @@
 
 :milky_way: Project Author: Kasparas Balys
 
+
+
 `-- Tools Used: --`
+
 
 :spades:`~~BACKEND~~`:spades:
 
@@ -32,6 +35,8 @@
 
 :spades: Nodemon
 
+
+
 :clubs:`~~FRONTEND~~`:clubs:
 
 :clubs: : HTML
@@ -42,7 +47,10 @@
 
 :clubs: : React
 
+
+
 `-- How to Launch the Project -- :`
+
 
 :diamonds:`~~BACKEND~~`:diamonds:
 
@@ -64,6 +72,8 @@
 
 :diamonds: Step 5 : `npm run dev` to initialize Server.
 
+
+
 :diamonds:`~~FRONTEND~~`:diamonds:
 
 :diamonds: Step 6: Open new Terminal window.
@@ -73,5 +83,7 @@
 :diamonds: Step 8: `npm i` to install Client dependencies,
 
 :diamonds: Step 9: `npm start` to initialize Client Side.
+
+
 
 :hearts:`API ENDPOINTS`:hearts:
