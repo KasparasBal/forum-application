@@ -10,7 +10,7 @@
 
 `-- Tools Used: --`
 
-:spades:`BackEnd`:spades:
+:spades:`~~BACKEND~~`:spades:
 
 :spades: : Node.Js
 
@@ -32,7 +32,7 @@
 
 :spades: Nodemon
 
-:clubs:`FrontEnd`:clubs:
+:clubs:`~~FRONTEND~~`:clubs:
 
 :clubs: : HTML
 
@@ -44,7 +44,7 @@
 
 `-- How to Launch the Project -- :`
 
-:diamonds:`BackEnd`:diamonds:
+:diamonds:`~~BACKEND~~`:diamonds:
 
 :diamonds: Step 1 : Clone the Repository,
 
@@ -58,7 +58,7 @@
 
 :diamonds: Step 5 : `npm run dev` to initialize Server.
 
-:diamonds:`FrontEnd`:diamonds:
+:diamonds:`~~FRONTEND~~`:diamonds:
 
 :diamonds: Step 6: Open new Terminal window.
 
