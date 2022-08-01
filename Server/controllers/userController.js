@@ -5,3 +5,41 @@ const mongoose = require("mongoose");
 const bcrypt = require("bcrypt");
 //Authentication
 const jwt = require("jsonwebtoken");
+
+//Register EndPoint
+
+const Register = (req, res) => {
+  //Hash the Password
+
+  const salt = 10; // Number of Salt Rounds
+
+  bcrypt
+    .hash(req.body.password, salt)
+    .then((hashedPass) => {
+      const user = new User({
+        email: req.body.email,
+        password: hashedPass,
+      });
+
+      user
+        .save()
+        .then((result) => {
+          res.status(201).send({
+            message: "User was created Succesfully",
+            result,
+          });
+        })
+        .catch((error) => {
+          res.status(500).send({
+            message: "Failed to create User",
+            error,
+          });
+        });
+    })
+    .catch((e) => {
+      res.status(500).send({
+        message: "Password was not hashed succesfully...",
+        e,
+      });
+    });
+};
