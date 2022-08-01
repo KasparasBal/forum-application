@@ -86,8 +86,11 @@
 
 
 
-:hearts:`API ENDPOINTS`:hearts:
+:boom:`API ENDPOINTS`:boom:
 
-:hearts: `/register` Registering A New User
+`USERS`
 
-:hearts: `/login` Login as User
+
+:ok_man: `/register` Registering A New User
+
+:ok_man: `/login` Login as User
