@@ -52,9 +52,9 @@
 
 :diamonds: Step 3 : `npm i` to install Server dependencies from package.json,
 
-:diamonds: Step 4 : create a `.env` file and add 3 values,
+:diamonds: Step 4 : create a `.env` file,
 
-:diamonds: Step 4.1 :
+:diamonds: Step 4.1 : add 3 values :
      
       PORT : Your Desired Port ( CORS will be configured for 3001. )
      
