@@ -54,7 +54,12 @@
 
 :diamonds: Step 4 : create a `.env` file and add 3 values,
 
-:diamonds: Step 4.1 : Value 1: PORT, Value 2: DB_URI (MongoDB), Value 3: SECRET_KEY,
+:diamonds: Step 4.1 :
+     :jack_o_lantern: Value 1: PORT, 
+     
+     :jack_o_lantern: Value 2: DB_URI (MongoDB),
+     
+     :jack_o_lantern: Value 3: SECRET_KEY,
 
 :diamonds: Step 5 : `npm run dev` to initialize Server.
 
