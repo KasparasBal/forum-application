@@ -19,6 +19,26 @@ const getAllPosts = async (req, res) => {
   res.status(200).json(posts);
 };
 
+//Get A Single Post
+//////////////////////////////////////////////////////////
+const getSinglePost = async (req, res) => {
+  const { id } = req.params;
+
+  if (!mongoose.Types.ObjectId.isValid(id)) {
+    return res.status(400).json({ error: "No Matching Post Found" });
+  }
+
+  const post = await Post.findById(id).select(
+    "title body author userId likes edited"
+  );
+
+  if (!post) {
+    return res.status(404).json({ error: "No Matching Post Found." });
+  }
+
+  res.status(200).json(post);
+};
+
 const CreatePost = async (req, res) => {
   const newPost = new Post(req.body);
   try {
