@@ -91,6 +91,19 @@
 `USERS`
 
 
-:ok_man: `/register` Registering A New User
+:ok_man: `/register` Registering A New User -- POST METHOD
 
-:ok_man: `/login` Login as User
+:ok_man: `/login` Login as User -- POST METHOD
+
+`POSTS`
+
+
+:eye_speech_bubble: `/` Get All Posts -- GET METHOD
+
+:eye_speech_bubble: `/posts/:id` Get Single Post -- GET METHOD
+
+:eye_speech_bubble: `/posts/create` Create A New Post -- POST METHOD // `NEEDS AUTHENTICATION`
+
+:eye_speech_bubble: `/posts/:id` Delete A Post -- DELETE METHOD // `NEEDS AUTHENTICATION`
+
+:eye_speech_bubble: `/post/:id` Update A Post -- PATCH METHOD  // `NEEDS AUTHENTICATION`
