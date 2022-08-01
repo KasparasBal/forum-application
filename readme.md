@@ -1,3 +1,5 @@
+`--------------------------------------- General Inforamtion: -------------------------------------------`
+
 :milky_way: Project: Forum application
 
 :milky_way: Project Title: "Friends"
@@ -10,10 +12,10 @@
 
 
 
-`-- Tools Used: --`
+`----------------------------------------------- Tools Used: ---------------------------------------------`
 
 
-:spades:`~~BACKEND~~`:spades:
+:spades::spades::spades::spades::spades::spades:`~~BACKEND~~`:spades::spades::spades::spades::spades::spades:
 
 :spades: : Node.Js
 
@@ -37,7 +39,7 @@
 
 
 
-:clubs:`~~FRONTEND~~`:clubs:
+:clubs::clubs::clubs::clubs::clubs::clubs::clubs::clubs:`~~FRONTEND~~`:clubs::clubs::clubs::clubs::clubs::clubs::clubs::clubs::clubs:
 
 :clubs: : HTML
 
@@ -49,10 +51,10 @@
 
 
 
-`-- How to Launch the Project -- :`
+`--------------------------------------- How to Launch Project: -------------------------------------------`
 
 
-:diamonds:`~~BACKEND~~`:diamonds:
+:diamonds::diamonds::diamonds::diamonds::diamonds:`~~BACKEND~~`:diamonds::diamonds::diamonds::diamonds::diamonds:
 
 :diamonds: Step 1 : Clone the Repository,
 
@@ -74,7 +76,7 @@
 
 
 
-:diamonds:`~~FRONTEND~~`:diamonds:
+:diamonds::diamonds::diamonds::diamonds::diamonds:`~~FRONTEND~~`:diamonds::diamonds::diamonds::diamonds::diamonds::diamonds:
 
 :diamonds: Step 6: Open new Terminal window.
 
@@ -86,7 +88,7 @@
 
 
 
-:boom:`API ENDPOINTS`:boom:
+:boom::boom::boom::boom::boom::boom::boom::boom::boom:`API ENDPOINTS`:boom::boom::boom::boom::boom::boom::boom::boom::boom:
 
 `USERS`
 
