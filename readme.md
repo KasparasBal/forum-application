@@ -1,12 +1,12 @@
-Project: Forum application
+:milky_way: Project: Forum application
 
-Project Title: "Friends"
+:milky_way: Project Title: "Friends"
 
-Project Description: Social forum to communicate with people over the internet.
+:milky_way: Project Description: Social forum to communicate with people over the internet.
 
-Forum doesn't contain any particular theme
+:milky_way: Forum doesn't contain any particular theme
 
-Project Author: Kasparas Balys
+:milky_way: Project Author: Kasparas Balys
 
 `-- Tools Used: --`
 
@@ -35,8 +35,11 @@ Project Author: Kasparas Balys
 :clubs:`FrontEnd`:clubs:
 
 :clubs: : HTML
+
 :clubs: : CSS
+
 :clubs: : TypeScript
+
 :clubs: : React
 
 `-- How to Launch the Project -- :`
