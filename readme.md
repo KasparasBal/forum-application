@@ -1,3 +1,5 @@
+`--------------------------------------- General Inforamtion: -------------------------------------------`
+
 :milky_way: Project: Forum application
 
 :milky_way: Project Title: "Friends"
@@ -10,10 +12,10 @@
 
 
 
-`-- Tools Used: --`
+`----------------------------------------------- Tools Used: ---------------------------------------------`
 
 
-:spades:`~~BACKEND~~`:spades:
+:spades::spades::spades::spades::spades::spades:`~~BACKEND~~`:spades::spades::spades::spades::spades::spades:
 
 :spades: : Node.Js
 
@@ -37,7 +39,7 @@
 
 
 
-:clubs:`~~FRONTEND~~`:clubs:
+:clubs::clubs::clubs::clubs::clubs::clubs::clubs::clubs:`~~FRONTEND~~`:clubs::clubs::clubs::clubs::clubs::clubs::clubs::clubs::clubs:
 
 :clubs: : HTML
 
@@ -49,10 +51,10 @@
 
 
 
-`-- How to Launch the Project -- :`
+`--------------------------------------- How to Launch Project: -------------------------------------------`
 
 
-:diamonds:`~~BACKEND~~`:diamonds:
+:diamonds::diamonds::diamonds::diamonds::diamonds:`~~BACKEND~~`:diamonds::diamonds::diamonds::diamonds::diamonds:
 
 :diamonds: Step 1 : Clone the Repository,
 
@@ -74,7 +76,7 @@
 
 
 
-:diamonds:`~~FRONTEND~~`:diamonds:
+:diamonds::diamonds::diamonds::diamonds::diamonds:`~~FRONTEND~~`:diamonds::diamonds::diamonds::diamonds::diamonds::diamonds:
 
 :diamonds: Step 6: Open new Terminal window.
 
@@ -86,8 +88,24 @@
 
 
 
-:hearts:`API ENDPOINTS`:hearts:
+:boom::boom::boom::boom::boom::boom::boom::boom::boom:`API ENDPOINTS`:boom::boom::boom::boom::boom::boom::boom::boom::boom:
 
-:hearts: `/register` Registering A New User
+`USERS`
 
-:hearts: `/login` Login as User
+
+:ok_man: `/register` Registering A New User -- POST METHOD
+
+:ok_man: `/login` Login as User -- POST METHOD
+
+`POSTS`
+
+
+:eye_speech_bubble: `/` Get All Posts -- GET METHOD
+
+:eye_speech_bubble: `/posts/:id` Get Single Post -- GET METHOD
+
+:eye_speech_bubble: `/posts/create` Create A New Post -- POST METHOD // `NEEDS AUTHENTICATION`
+
+:eye_speech_bubble: `/posts/:id` Delete A Post -- DELETE METHOD // `NEEDS AUTHENTICATION`
+
+:eye_speech_bubble: `/post/:id` Update A Post -- PATCH METHOD  // `NEEDS AUTHENTICATION`
