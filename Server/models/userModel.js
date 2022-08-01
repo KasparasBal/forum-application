@@ -42,7 +42,7 @@ const UserSchema = new mongoose.Schema({
     type: Array,
     default: [],
   },
-  articles: {
+  likedPosts: {
     type: Array,
     default: [],
   },
