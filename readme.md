@@ -87,3 +87,7 @@
 
 
 :hearts:`API ENDPOINTS`:hearts:
+
+:hearts: `/register` Registering A New User
+
+:hearts: `/login` Login as User
